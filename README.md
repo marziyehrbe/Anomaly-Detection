@@ -3,8 +3,7 @@
 Problem:
 Along with this document you will have received a dataset containing behavioral data for a few cows. The file for every cow contains a list of floats that can be casted to a
 matrix of shape (6000, 4). The first dimension indexes time and, in particular, a range of time lasting for 15 minutes. Therefore, every file represents around 2 months of that
-cow’s life; there are no gaps in it. The second dimension indexes a cow behavior, with every value within the matrix representing the percentage of the time (between 0 and
-1) the cow spent doing a particular behavior during that 15-minute range. The cow behaviors are indexed in the following order:
+cow’s life; there are no gaps in it. The second dimension indexes a cow behavior, with every value within the matrix representing the percentage of the time (between 0 and 1) the cow spent doing a particular behavior during that 15-minute range. The cow behaviors are indexed in the following order:
 • Doing nothing.
 • Eating.
 • Ruminating.
