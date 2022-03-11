@@ -4,10 +4,12 @@ Problem:
 Along with this document you will have received a dataset containing behavioral data for a few cows. The file for every cow contains a list of floats that can be casted to a
 matrix of shape (6000, 4). The first dimension indexes time and, in particular, a range of time lasting for 15 minutes. Therefore, every file represents around 2 months of that
 cow’s life; there are no gaps in it. The second dimension indexes a cow behavior, with every value within the matrix representing the percentage of the time (between 0 and 1) the cow spent doing a particular behavior during that 15-minute range. The cow behaviors are indexed in the following order:
+
 • Doing nothing.
 • Eating.
 • Ruminating.
 • Walking.
+
 Cows do not really do anything else apart from these four things (they sleep only for 10 minutes a day!), so treat these items as mutually-exclusive and exhaustive. Even if
 your knowledge of cow biology is non-existent, there is one fair assumption you can make: if the usual behavioral pattern of a cow gets seriously altered, that is probably
 not good. This is the case with human sleep cycles and eating times, for instance. Detecting these anomalies fast enough could be very useful for dairy farmers, since they could signal serious illnesses. 
